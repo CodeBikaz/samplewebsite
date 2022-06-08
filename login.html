@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/my.css">
+    <script src="./js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/9c63a69afb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <title>Website</title>
+</head>
+<body class="bg-gradient-to-l to-[#91052f] from-[#d80d4a]">
+    <main class="container mx-auto bg-gradient-to-l to-[#91052f] from-[#d80d4a]">
+        <header class="w-full h-28 font-display ">
+            <nav class="w-full h-full flex md:justify-between justify-around ">
+                <div >
+                    <button class="md:hidden inline-flex mt-8 text-2xl text-white"><i class="fa-solid fa-bars"></i></button>
+                    <a href="#"><img draggable="false" src="./images/logo.png" alt="" class="filter scale-50 hidden md:inline-flex mr-10"></a>
+                    <ul class="hidden md:inline-flex gap-x-20  md:text-xs  text-white">
+                        <li class="mr-16 active:text-gray-300"><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#" class="active:text-gray-300">تماس با ما</a></li>
+                        <li><a href="#" class="active:text-gray-300">سوالات متداول</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:inline-flex items-center gap-x-10 text-xs text-white ml-16">
+                    <a href="#"><span class="w-24 h-7 ring-2 ring-[#fb6b30] rounded-md flex justify-center items-center active:text-[#fb6b30] active:ring-white transition ">ثبت نام</span></a>
+                    <a href="#" class="active:text-gray-300"><span>ورود</span></a>
+                </div>
+            </nav>
+        </header>
+        <section class="w-full h-[660px] flex justify-center mt-12 font-post">
+            <div class="w-80 h-[27rem] bg-slate-700 flex items-center justify-center text-white flex-col gap-y-5 ring-1 ring-gray-300 rounded-md">
+                
+                <span class="w-full flex justify-center bg-gradient-to-l from-transparent via-gray-900/50 to-transparent ">ورود</span>
+                <form action="" class="block gap-x-4 ">
+                    
+                    <span class="text-xs">نام کاربری :</span>
+                    <label for="uname" class="flex" >
+                        
+                        <input type="text" name="uname" class="w-52 h-6 bg-gray-900 rounded-sm text-xs outline-none px-1 focus:ring-2 focus:ring-gray-50 transition duration-200">
+                    </label>
+                    <span class="text-xs">رمز :</span>
+                    <label for="pword" class="flex" >
+                        
+                        <input type="password" name="pword" class="w-52 h-6 bg-gray-900 rounded-sm text-xs outline-none px-1 focus:ring-2 focus:ring-gray-50 transition duration-200">
+                    </label>
+                    <a href="#" class="text-xs text-red-400 hover:text-red-300">فراموشی رمز عبور</a>
+                    
+                    
+                </form>
+                <div class="w-32 h-10 bg-gray-900">Captcha code location</div>
+                <button type="button" class="w-24 h-8 bg-gray-900 rounded-lg active:ring-gray-500 ring-2 ring-gray-200 duration-75">ورود</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="container mx-auto">
+        <div class="w-full mx-auto flex h-28 bg-[#d80d4a] flex-col ">
+            <div class="mx-auto my-auto flex gap-x-2 text-2xl mt-6">
+                <a href="#"><i class="fa-brands fa-telegram text-blue-400"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram text-pink-500"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp text-green-500"></i></a>
+                <br>
+                
+            </div>
+            <span class="font-post text-xs flex mx-auto mb-7 select-none">
+                تمامی حقوق این مجموعه برای ShadowShop محفوظ است.
+                
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>

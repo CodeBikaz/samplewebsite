@@ -1,0 +1,32 @@
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply -translate-x-3;
+}
+
+@tailwind components;
+
+@font-face {
+  font-family: IRANSans;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/IRANSans.woff") format("woff");
+}
+@font-face {
+  font-family: BYekan;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/BYekan.woff") format("woff");
+}
+@font-face {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/montserrat1.woff") format("woff");
+  src: url("../fonts/montserrat2.woff2") format("woff2");
+}
+
+@tailwind utilities;

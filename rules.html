@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/my.css">
+    <script src="./js/app.js" defer></script>
+    <script src="./js/jquery.js" ></script>
+    <script src="https://kit.fontawesome.com/9c63a69afb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <title>Website</title>
+</head>
+<body class="bg-gradient-to-l to-[#91052f] from-[#d80d4a]">
+    <main class="container mx-auto bg-gradient-to-l to-[#91052f] from-[#d80d4a]">
+        <header class="w-full h-28 font-display ">
+            <nav class="w-full h-full flex md:justify-between justify-around ">
+                <div >
+                    <button class="md:hidden inline-flex mt-8 text-2xl text-white"><i class="fa-solid fa-bars"></i></button>
+                    <a href="#"><img draggable="false" src="./images/logo.png" alt="" class="filter scale-50 hidden md:inline-flex mr-10"></a>
+                    <ul class="hidden md:inline-flex gap-x-20  md:text-xs  text-white">
+                        <li class="mr-16 active:text-gray-300"><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#" class="active:text-gray-300">تماس با ما</a></li>
+                        <li><a href="#" class="active:text-gray-300">سوالات متداول</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:inline-flex items-center gap-x-10 text-xs text-white ml-16">
+                    <a href="#"><span class="w-24 h-7 ring-2 ring-[#fb6b30] rounded-md flex justify-center items-center active:text-[#fb6b30] active:ring-white transition ">ثبت نام</span></a>
+                    <a href="#" class="active:text-gray-300"><span>ورود</span></a>
+                </div>
+            </nav>
+        </header>
+        <section class="w-full h-fit flex flex-col items-center gap-y-7 my-12 font-post ">
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >مدت زمان تحویل محصول چقدر است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        مدت تقریبی در زیر هر محصول درج شده است. لازم به ذکر است که این مدت زمان تقریبی بوده و ممکن است محصول مورد نظر زودتر یا دیرتر تحویل داده شود اما معمولاً در بازه زمانی ذکر شده تقدیم می‌شود.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >نحوهٔ پیگیری محصولات چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        از طریق کادر بالای فروشگاه بر روی نام کاربری خود کلیک کنید و به بخش «سفارش‌های من» را باز کنید. سپس از طریق گزینهٔ «صفحهٔ سفارش» وارد بخش مربوط به سفارش ثبت شده شوید. در این بخش، وضعیت کامل محصول خریداری شده قابل مشاهده است.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >آموزش استفاده چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        بعد از اینکه محصول در سفارش مربوطه تحویل داده شد، یک آموزش کامل دربارهٔ نحوهٔ استفاده از محصول مورد نظر نیز در همان بخش برای خریدار ارسال می‌شود.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >پشتیبانی محصولات چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        در همان سفارشی که ثبت نمودید، گزینه‌ای به نام «ارسال پیام» قرار دارد. با استفاده از این گزینه می‌توانید با پشتیبانی فروشگاه در ارتباط باشید.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >نحوهٔ فروش مجدد محصولات چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        در همان سفارشی که ثبت نمودید، گزینه‌ای به نام «درخواست فروش» وجود دارد. اگر محصول مورد نظر قابلیت فروش مجدد را داشته باشد، با استفاده از این گزینه می‌توانید درخواست فروش خود را ثبت کنید تا در سریعترین زمان بررسی شود.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >شرایط انصراف از خرید چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        در همان سفارشی که ثبت نمودید، گزینه‌ای به نام «لغو سفارش» وجود دارد. با استفاده از این گزینه، می‌توانید سفارش خود را لغو کنید. مبلغ پرداخت شده برای محصول مورد نظر (با احتساب کسر مبلغ ذکر شده در مراحل لغو) به شماره کارتی که در زمان ثبت نام وارد نموده‌اید واریز خواهد شد.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >آیا امکان تغییر اطلاعات محصولات (مانند اکانت‌ها) وجود دارد؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        خریداران یک ظرفیت از محصولات اجازهٔ تغییر کوچکترین اطلاعات محصول را ندارند. جهت جلوگیری از ضایع شدن حق خریداران سایر ظرفیت‌ها، درصورت بررسی و اطلاع از تغییر اطلاعات یک محصول (نام کاربری، آدرس پست الکترونیکی، کلمهٔ عبور و...) محصول مورد نظر بایگانی شده و خریدار اجازهٔ استفاده از آن را نخواهد داشت. همچنین بدلیل عدم رعایت قوانین، فروشگاه مسئولیتی در قبال عودت وجه پرداخت شده توسط خریدار نخواهد داشت.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >مبلغ سفارش‌های بازفروش شده چگونه به حساب مشتری واریز می‌شود؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        هنگام ثبت نام، شماره کارت مشتری دریافت می‌شود. به همین دلیل تأکید می‌کنیم شماره کارت معتبر در کادر مربوطه وارد کنید. بعد از پایان مراحل فروش محصول ذکر شده، مبلغ به شماره کارت وارد شده در زمان ثبت نام واریز می‌شود. فروشگاه کنسولفا مسئولیتی در قبال ارائهٔ شماره کارت اشتباه توسط مشتری ندارد. (از طریق بخش «صفحهٔ کاربری» می‌توانید شماره کارت و سایر اطلاعات خود را ویرایش کنید)
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >مهلت استفاده از محصول چقدر است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        همانطور که در بخش سفارش‌ها نیز ذکر شده است، محصولاتی مثل اکانت «ظرفیت اول» و «ظرفیت دوم» موظف‌اند ظرف مدت ۱۲ ساعت محصول خود را استفاده کنند. در صورتی که این مدت زمان بیشتر شود، فروشگاه هیچ مسئولیتی در قبال این دیرکرد نخواهد داشت و ممکن است نتیجه به باطل شدن محصول و عدم عودت وجه به خریدار منجر شود. اما محصولاتی مانند اکانت «ظرفیت سوم» محدودیتی در استفاده ندارند و می‌توانند هر زمان که مایل بودند از محصول خود استفاده کنند.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >اگر روی «می‌خواهم استفاده کنم» نزنیم، می‌توانیم در زمان دلخواه استفاده کنیم؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        محصولاتی مثل اکانت «ظرفیت اول» و «ظرفیت دوم» چنین امکانی ندارند؛ یعنی در صورتی که حتی روی گزینهٔ «می‌خواهم استفاده کنم» نزنید و ۱۲ ساعت از زمان تحویل گذشته باشد، احتمال ابطال محصول و عدم عودت وجه وجود خواهد داشت. اما محصولاتی مثل اکانت «ظرفیت سوم» چنین قابلیتی دارند و می‌توانید هر زمان که تمایل داشتید گزینهٔ «می‌خواهم استفاده کنم» را انتخاب کنید.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >مبلغ بازفروش محصولات چگونه محاسبه می‌شود؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        بدلیل جلوگیری از کسب درآمد کاربران از فرایند بازفروش، امکان فروش محصول خریداری شده با قیمت بالاتر از مبلغ خریداری شده وجود ندارد و کارمزد مربوطه از مبلغ خریداری شده کسر می‌شود.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >گارانتی محصولات به چه صورت است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        به دلیل جلوگیری از سوء استفاده برخی استفاده کنندگان، محصولات تنها شامل یک ماه گارانتی می‌شوند و پس از آن در صورتی که مشکلی برای مشتری رخ دهد شامل ضمانت نمی‌شود.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >گارانتی در چه مواقعی باطل می‌شود؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        اگر خریدار یک محصول مانند «اکانت ظرفیت دوم» یا اکانت «ظرفیت سوم» محصول را خریداری کند و به پیام پشتیبانی در بخش سفارش پاسخ ندهد، گارانتی محصول وی باطل می‌گردد. بعنوان مثال اگر محصول دچار مشکل شده باشد و پشتیبانی درخواست انجام کاری را از خریدار کند و خریدار مربوطه توجه‌ای به این پیام نکند و یا بعد از یک روز پاسخ دهد، گارانتی محصول باطل می‌گردد.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >امکان بازفروش خارج از سایت وجود دارد؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        در صورتی که کاربران خارج از سایت محصول خود را بازفروش کنند، محصول آن‌ها فاقد گارانتی خواهد شد؛ زیرا فروشندهٔ مورد نظر آن‌ها مورد تائید ما نبوده و بصورت مستقیم با ما ارتباط ندارد.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >اگر درخواست بازفروش ما با تخفیف مواجه شود چه خواهد شد؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        فروشگاه کنسولفا بر اساس قیمت رسمی بازی‌ها در فروشگاه رسمی، تخفیف را اعمال می‌کند. بطوری که اگر یک بازی ۱۰ دلار تخفیف خورده باشد، قیمت آن در فروشگاه نیز کاهش پیدا می‌کند. حالا اگر در این زمان مشتری درخواست فروش دهد، قیمت با تخفیف ذکر شده ثبت خواهد شد و سپس با کسر کارمزد مبلغ به مشتری عودت داده خواهد شد. بنابراین قبل از اینکه درخواست فروش خود را ثبت کنید، از شرایط قیمت محصول مطلع شوید.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >نحوهٔ پیگیری محصولات چگونه است؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        از طریق کادر بالای فروشگاه بر روی نام کاربری خود کلیک کنید و به بخش «سفارش‌های من» را باز کنید. سپس از طریق گزینهٔ «صفحهٔ سفارش» وارد بخش مربوط به سفارش ثبت شده شوید. در این بخش، وضعیت کامل محصول خریداری شده قابل مشاهده است.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >امکان وارد کردن اکانت داخل موبایل یا سایت وجود دارد؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        اکانت‌هایی که توسط فروشگاه کنسولفا ارائه می‌شوند، تنها باید بر روی کنسول مربوطه وارد شوند. وارد کردن اکانت در هر مکانی مانند برنامهٔ PlayStation App و یا وبسایت رسمی شرکت سونی، به منزلهٔ نقض قوانین توسط خریدار بوده و گارانتی اکانت باطل می‌گردد.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >امکان پاک کردن اکانت بدون هماهنگی وجود دارد؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        جهت جلوگیری از بروز مشکلات فنی در استفاده از محصولات مانند اکانت‌های قانونی پلی استیشن ۴ کاربران حق ندارند بدون هماهنگی با واحد پشتیبانی، اکانت را از روی کنسول مورد نظر پاک کنند. در صورت بروز چنین اتفاقی، گارانتی محصول باطل خواهد شد و کنسولفا مسئولیتی در قبال محصول مورد نظر ندارد.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >اگر در استفاده از محصولی اشتباه کنیم چه می‌شود؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        بطور مثال ممکن است کاربری در اکتیو کردن یک اکانت ظرفیت دوم پلی استیشن ۴ به مشکل بخورد. در این صورت، بدلیل اینکه آموزش‌های کافی در همین سایت قرار دارد و کاربر آن‌ها را مطالعه نکرده است، گارانتی محصول بصورت خودکار باطل شده و پشتیبانی مقدور به رفع مشکل نخواهد بود. یا بطور مثال ممکن است کاربری در وارد کردن رمز یا رمز دو مرحله‌ای اعلام نارضایتی کند در صورتی که مشکلی وجود ندارد. این موارد نیز باعث ابطال گارانتی می‌شوند.
+                    </span>
+                </div>
+            </div>
+
+            <div  class="w-10/12 h-fit border-2 border-orange-500 rounded-xl px-7 py-3 text-white">
+                <span class="mt-10 text-xl" >درصورت بروز مشکل برای محصول، جبران خسارت چگونه انجام می‌شود؟</span>
+                <button  class="float-left fa-solid fa-arrow-down toggle "></button>
+                <div class="mt-10 box">
+                    <span>
+                        بعد از بروز مشکل برای محصول، کارشناسان فنی به مدت ۲۵ روز به بررسی مشکل می‌پردازند. چنانچه در نهایت مشکل قابل حل نبود، ۸۰ درصد از مبلغ روز محصول به خریدار عودت داده می‌شود. بعنوان مثال اگر یک محصول با مبلغ ۸۰۰٫۰۰۰ تومان خریده شده و قیمت روز آن ۴۰۰٫۰۰۰ تومان است، مبلغ ۳۲۰٫۰۰۰ تومان به خریدار عودت داده خواهد شد.
+                    </span>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="container mx-auto">
+        <div class="w-full mx-auto flex h-28 bg-[#d80d4a] flex-col ">
+            <div class="mx-auto my-auto flex gap-x-2 text-2xl mt-6">
+                <a href="#"><i class="fa-brands fa-telegram text-blue-400"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram text-pink-500"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp text-green-500"></i></a>
+                <br>
+                
+            </div>
+            <span class="font-post text-xs flex mx-auto mb-7 select-none">
+                تمامی حقوق این مجموعه برای ShadowShop محفوظ است.
+                
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>
